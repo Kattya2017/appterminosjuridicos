@@ -43,7 +43,7 @@ const style = StyleSheet.create({
     title: {
         fontSize: 50,
         marginBottom: 2,
-        fontFamily: 'AkazanRg Bold',
+        //fontFamily: 'AkazanRg Bold',
         color: '#378A0A'
     },
     title2: {
@@ -53,7 +53,7 @@ const style = StyleSheet.create({
         textAlign: 'center',
         marginTop: 30,
         margin:10,
-        fontFamily: 'AkazanRg Bold'
+        //fontFamily: 'AkazanRg Bold'
     },
     containerBtn: {
         marginTop: 12,
@@ -98,7 +98,7 @@ const style = StyleSheet.create({
       click:{
         fontSize: 20,
         marginBottom:5,
-        fontFamily: 'AkazanRg Bold',
+        //fontFamily: 'AkazanRg Bold',
         textAlign:'center',
         color: 'blue',
         right: 8,

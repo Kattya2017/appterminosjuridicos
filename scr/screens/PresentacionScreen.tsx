@@ -64,7 +64,7 @@ const style = StyleSheet.create({
     title: {
         fontSize: 50,
         marginBottom: 2,
-        fontFamily: 'AkazanRg Bold',
+        //fontFamily: 'AkazanRg Bold',
         color: '#378A0A'
     },
     title2: {
@@ -74,7 +74,7 @@ const style = StyleSheet.create({
         textAlign: 'justify',
         marginTop: 30,
         margin: 15,
-        fontFamily: 'Roboto-Medium'
+        //fontFamily: 'Roboto-Medium'
     },
     containerSubTitle:{
         //backgroundColor:'red',

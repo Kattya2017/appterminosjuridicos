@@ -51,9 +51,6 @@ const style = StyleSheet.create({
         top: 80
     },
     btnDiccionario: {
-        //backgroundColor: '#fff',
-       // borderColor:'#059A32',
-        //borderWidth:2,
         width: 120,
         height: 120,
         borderRadius: 100,
