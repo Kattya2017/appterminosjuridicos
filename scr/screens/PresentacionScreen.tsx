@@ -1,6 +1,7 @@
 import { Dimensions, ImageBackground, StyleSheet, Text, View } from 'react-native';
 import { StackScreenProps } from '@react-navigation/stack';
 import { TouchableOpacity } from 'react-native-gesture-handler';
+import { RootStackParams } from '../navigator/StackNavigator';
 
 
 const { width, height} = Dimensions.get('window');
@@ -65,7 +66,7 @@ const style = StyleSheet.create({
         fontSize: 50,
         marginBottom: 2,
         //fontFamily: 'AkazanRg Bold',
-        color: '#378A0A'
+        color: '#680F10'
     },
     title2: {
         //backgroundColor: 'red',

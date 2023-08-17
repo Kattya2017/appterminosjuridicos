@@ -42,7 +42,7 @@ const StackNavigator = () => {
 <Stack.Screen name='PresentacionScreen' options={{
         headerShown: true,
         headerStyle: {
-          backgroundColor: '680F10',
+          backgroundColor: '#680F10',
           height: 55
         },
         headerTitle: '',
