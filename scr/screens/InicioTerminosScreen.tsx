@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react';
 import { StackScreenProps } from "@react-navigation/stack";
 import { Dimensions, Image, ImageBackground, StyleSheet, TouchableOpacity, View } from "react-native";
 
@@ -20,7 +21,9 @@ export const InicioTerminosScreen = ({navigation}:Props) =>{
             />
 
             <View style={style.containerBtn}>
-                <TouchableOpacity style={style.btnDiccionario} onPress={()=>navigation.navigate('PresentacionScreen')}>
+                <TouchableOpacity
+                activeOpacity={0.7} 
+                style={style.btnDiccionario} onPress={()=>navigation.navigate('PresentacionScreen')}>
                     <Image
                     source={require('../assets/img/libro-3.png')}
                     style={style.iconoBtn}
@@ -48,9 +51,6 @@ const style = StyleSheet.create({
         top: 80
     },
     btnDiccionario: {
-        //backgroundColor: '#fff',
-       // borderColor:'#059A32',
-        //borderWidth:2,
         width: 120,
         height: 120,
         borderRadius: 100,

@@ -1,6 +1,7 @@
 import { Dimensions, ImageBackground, StyleSheet, Text, View } from 'react-native';
 import { StackScreenProps } from '@react-navigation/stack';
 import { TouchableOpacity } from 'react-native-gesture-handler';
+import { RootStackParams } from '../navigator/StackNavigator';
 
 
 const { width, height} = Dimensions.get('window');
@@ -9,7 +10,7 @@ interface Props extends StackScreenProps<any, any>{};
 
 export const PresentacionScreen = ({navigation}: Props) =>{
     return(
-        <view>
+        <View style={style.container}>
             <ImageBackground
             source={require('../assets/img/presentacion.png')}
             style={{
@@ -44,7 +45,7 @@ export const PresentacionScreen = ({navigation}: Props) =>{
                     </TouchableOpacity>
                 </View>
 
-        </view>
+        </View>
     );
 };
 
@@ -64,8 +65,8 @@ const style = StyleSheet.create({
     title: {
         fontSize: 50,
         marginBottom: 2,
-        fontFamily: 'AkazanRg Bold',
-        color: '#378A0A'
+        //fontFamily: 'AkazanRg Bold',
+        color: '#680F10'
     },
     title2: {
         //backgroundColor: 'red',
@@ -74,7 +75,7 @@ const style = StyleSheet.create({
         textAlign: 'justify',
         marginTop: 30,
         margin: 15,
-        fontFamily: 'Roboto-Medium'
+        //fontFamily: 'Roboto-Medium'
     },
     containerSubTitle:{
         //backgroundColor:'red',
