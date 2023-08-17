@@ -9,7 +9,7 @@ interface Props extends StackScreenProps<any, any>{};
 
 export const PresentacionScreen = ({navigation}: Props) =>{
     return(
-        <view>
+        <View style={style.container}>
             <ImageBackground
             source={require('../assets/img/presentacion.png')}
             style={{
@@ -44,7 +44,7 @@ export const PresentacionScreen = ({navigation}: Props) =>{
                     </TouchableOpacity>
                 </View>
 
-        </view>
+        </View>
     );
 };
 
