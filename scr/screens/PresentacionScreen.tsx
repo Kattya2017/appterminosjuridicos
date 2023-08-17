@@ -28,14 +28,15 @@ export const PresentacionScreen = ({navigation}: Props) =>{
                     acciones con instituciones públicas y privadas, en esta oportunidad con la 
                     Universidad Nacional Intercultural de la Amazonía y los interpretes acreditados 
                     por el Ministerio de Cultura, con el fin de brindar los servicios del sistema de 
-                    justicia a las personas más vulnerables de nuestra región y sin discriminación alguna.
+                    justicia a las personas más vulnerables de nuestra región y sin discriminación alguna.  
                     </Text>
-                    <Text style={style.title2} >En esta oportunidad se presenta un vocabulario en términos jurídicos más usuales 
+                    <Text style={style.titles2}>
+                    En esta oportunidad se presenta un vocabulario en términos jurídicos más usuales 
                     para el alcance de todos los usuarios, con el propósito de llegar a nuestros hermanos 
                     de las comunidades nativas y comunidades campesinas. Es por ello, que se ha desarrollado 
                     el aplicativo “Términos Jurídicos” como herramienta tecnológica donde se podrá consultar 
                     las palabras en la lengua (shipibo-konibo), considerando que esta lengua pertenece a la 
-                    familia Pano y es más hablado en las cuencas del Río Ucayali.  
+                    familia Pano y es más hablado en las cuencas del Río Ucayali.
                     </Text>
                 </View>
 
@@ -60,7 +61,7 @@ const style = StyleSheet.create({
         width,
         justifyContent: 'center',
         alignItems: 'center',
-        top: 10
+        top: 60
     },
     title: {
         fontSize: 50,
@@ -73,8 +74,17 @@ const style = StyleSheet.create({
         color: 'black',
         fontSize: 18,
         textAlign: 'justify',
-        marginTop: 30,
-        margin: 15,
+        marginTop: 10,
+        margin: 24,
+        //fontFamily: 'Roboto-Medium'
+    },
+    titles2: {
+        //backgroundColor: 'red',
+        color: 'black',
+        fontSize: 18,
+        textAlign: 'justify',
+        marginTop: -15,
+        margin: 24,
         //fontFamily: 'Roboto-Medium'
     },
     containerSubTitle:{
@@ -84,7 +94,7 @@ const style = StyleSheet.create({
         alignItems: 'center',
         height: 100,
         marginTop: -70,
-        top:80
+        top:100
     },
     title3:{
         fontSize: 25,
