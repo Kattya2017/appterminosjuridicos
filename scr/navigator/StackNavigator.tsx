@@ -26,10 +26,10 @@ const StackNavigator = () => {
 
         <Stack.Screen
         name='InicioTerminosScreen' options={{
-          headerShown: true,
-        headerStyle: {
-          height: 55
-        },
+          headerShown: false,
+          headerStyle: {
+            height: 55
+          },
         headerTitle: '',
         headerTitleStyle: {
           color: 'white',
@@ -40,7 +40,7 @@ const StackNavigator = () => {
         />
 
 <Stack.Screen name='PresentacionScreen' options={{
-        headerShown: true,
+        headerShown: false,
         headerStyle: {
           backgroundColor: '#680F10',
           height: 55
@@ -54,7 +54,7 @@ const StackNavigator = () => {
       }} component={PresentacionScreen}/>
 
 <Stack.Screen name='TerminosJuridicosScreen' options={{
-        headerShown: true,
+        headerShown: false,
         headerStyle: {
           backgroundColor: '#680F10',
           height: 55
