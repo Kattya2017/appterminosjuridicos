@@ -12,7 +12,7 @@ export const PresentacionScreen = ({navigation}: Props) =>{
     return(
         <View style={style.container}>
             <ImageBackground
-            source={require('../assets/img/presentacion.png')}
+            source={require('../assets/img/presentacion-2.png')}
             style={{
                 position: 'absolute',
                 width,
@@ -64,10 +64,11 @@ const style = StyleSheet.create({
         top: 60
     },
     title: {
-        fontSize: 50,
+        fontSize: 40,
         marginBottom: 2,
         //fontFamily: 'AkazanRg Bold',
-        color: '#680F10'
+        color: '#680F10',
+        fontWeight: '700'
     },
     title2: {
         //backgroundColor: 'red',
@@ -93,7 +94,7 @@ const style = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         height: 100,
-        marginTop: -70,
+        marginTop: -80,
         top:100
     },
     title3:{

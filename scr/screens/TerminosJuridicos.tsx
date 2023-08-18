@@ -13,7 +13,7 @@ export const TerminoJuridicosScreen = ({}:Props) =>{
     return(
         <View style={style.container}>
             <ImageBackground
-            source={require('../assets/img/fondo-palabras-2.png')}
+            source={require('../assets/img/fondo-palabras-3.png')}
             style={{
                 position: 'absolute',
                 width: '100%',

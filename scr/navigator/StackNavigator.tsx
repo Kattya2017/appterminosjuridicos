@@ -40,30 +40,30 @@ const StackNavigator = () => {
         />
 
 <Stack.Screen name='PresentacionScreen' options={{
-        headerShown: false,
+        headerShown: true,
         headerStyle: {
           backgroundColor: '#680F10',
           height: 55
         },
-        headerTitle: '',
+        headerTitle: 'Terminos Jurídicos CSJU',
         headerTitleStyle: {
           color: 'white',
           fontSize: 20,
-          fontWeight: '700'
+          fontWeight: '600'
         }
       }} component={PresentacionScreen}/>
 
 <Stack.Screen name='TerminosJuridicosScreen' options={{
-        headerShown: false,
+        headerShown: true,
         headerStyle: {
           backgroundColor: '#680F10',
           height: 55
         },
-        headerTitle: '',
+        headerTitle: 'Terminos Jurídicos CSJU',
         headerTitleStyle: {
           color: 'white',
           fontSize: 20,
-          fontWeight: '700'
+          fontWeight: '600'
         }
       }} component={TerminoJuridicosScreen}/>
         
