@@ -23,7 +23,7 @@ export const TerminoJuridicosScreen = ({ }: Props) => {
             /> */}
             <Pdf
                 trustAllCerts={false}
-                source={require('../assets/pdf/terminos-juridicos.pdf')}
+                source={require('../assets/pdf/prueba-shipibo.pdf')}
                 onLoadComplete={(numberOfPages, filePath) => {
                     console.log(`Number of pages: ${numberOfPages}`);
                 }}
